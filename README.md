@@ -142,8 +142,6 @@ https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.h
 
 # 6. Github
 
-# Github
-
 #### 1. Cloning a repository
 <p>
 
