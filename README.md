@@ -12,7 +12,7 @@ After doing things by hand in different programming scenarios, below is a setup 
 3. Installing Git
 4. Setting up a virtual environment and using PyCharm
 5. Cloning a Github repository in PyCharm
-6. Git basics
+6. Github
 
 # 0. Resources
 
@@ -140,6 +140,36 @@ https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.h
 
 <p>Multiple users on the same PC with Anaconda / PyCharm installed seems to have an issue with the "easy environment install" described previously.</p>
 
-# 6. Git basics
+# 6. Github
 
-<p>TBD</p>
+# Github
+
+#### 1. Cloning a repository
+<p>
+
+* Go to the repository main page.
+* Above the list of files, click <code> <> </code> Code.
+![Alt text](Setup_images/code-button.webp)
+* Copy the HTTPS URL for the repository.
+![Alt text](Setup_images/https-url-clone-cli.webp)
+* Open Git Bash or cmd
+* Type git clone, and then paste the URL you copied. <br> <code> git clone https://github.com/docs.git </code>
+
+</p>
+
+#### 2. Update your local repo
+* Before starting coding in the repo each time, you need chech if you have the las version of the repo and update your local repository by pull command. <br> <code> git pull </code>
+#### 3. Adding new file to the repo
+* To add a new file to the repo you can use <br> <code> git add FileName </code>
+* If you are starting new repo, you can use the folowing command to add all files at once <br> <code> git add . </code>
+
+#### 4. Commiting the changes
+* When finishing the work, you will need to commit the changes.
+* Commit is considered as save point of the project's currently staged changes.
+* To commit your changes, you can use this command <br> <code> git commit -m "commit message" </code>
+
+#### 5. Uploading the new version of your local repo
+
+* The git push command is used to upload local repository content to a remote repository. <br> <code> git push origin main </code>
+
+
