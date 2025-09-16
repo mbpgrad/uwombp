@@ -2,6 +2,14 @@
 
 This repo was intended for Medical Biophysics students or people who are interested in medical image processing, attempting to start from the basics for those who are looking to work with Python.
 
+# Workshop Recordings - (unlisted YouTube playlist)
+
+https://www.youtube.com/playlist?list=PLL7n5ZYqpzugvmh9BMUQvocg4o1YEiI69
+Workshops go over:
+1. Python setup allowing for version control and easy collaboration: PyCharm, Virtual environments, Anaconda, Git, GitHub
+2. Working with Excel or CSV data and Jupyter-Notebooks
+3. Medical image processing (3D, 4D DICOM file loading), and NumPy for scientific computation
+
 # Simple Python Setup
 
 After doing things by hand in different programming scenarios, below is a setup that I have used and recommended for ease-of-use Python programming. The general outline will be downloading and installing followed by a quick startup guide:
