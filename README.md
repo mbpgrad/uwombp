@@ -11,6 +11,10 @@ Workshops go over:
 2. Working with Excel or CSV data and Jupyter-Notebooks
 3. Medical image processing (3D, 4D DICOM file loading), and NumPy for scientific computation
 
+<strong>*Anonymous feedback or suggestions*</strong>
+
+https://forms.gle/AYb2FxSxUytnc8648
+
 # Simple Python Setup
 
 After doing things by hand in different programming scenarios, below is a setup that I have used and recommended for ease-of-use Python programming. The general outline will be downloading and installing followed by a quick startup guide:
